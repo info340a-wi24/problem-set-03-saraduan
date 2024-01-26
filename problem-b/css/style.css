@@ -1,1 +1,134 @@
-/* your CSS goes here */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.material-icons {
+    position: relative;
+    top: 5px;
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #2c96bf;
+    padding: .5rem;
+    padding-bottom: 1rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* moved from bottom */
+footer div p a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #f0f0f0;
+    border-bottom-width: .8rem;
+    border-bottom-color: #f0f0f0;
+    border-bottom-style: solid;
+    transition: ease-out .25s;
+}
+
+header {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    background-image: url("../img/paul-gilmore-145802-unsplash.jpg");
+    background-color: #0084af;
+    background-position: center;
+    background-size: cover;
+}
+
+header p {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+main section#menu {
+    background-color: #f0f0f0;
+
+}
+
+main section#menu div dl dt {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+main section#menu div dl dd {
+    margin: 0;
+}
+
+main section#menu div dl dd img {
+    height: 200px;
+    border-radius: 15px;
+}
+
+main section#about {
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
+
+footer {
+    color: white;
+    background-color: #3e1305;
+}
+
+footer div p {
+    margin: 0;
+    line-height: 1.25;
+}
+
+footer div p:last-child {
+    padding-top: 8px;
+}
